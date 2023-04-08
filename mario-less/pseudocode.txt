@@ -1,0 +1,13 @@
+
+
+int h
+do
+{
+ h = get_int("Height: "\n);
+}
+while (h > 0 && h <= 8);
+
+for (int h = 0, h <=8, h++)
+{
+    printf("#\n");
+}
