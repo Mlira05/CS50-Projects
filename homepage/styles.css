@@ -1,0 +1,68 @@
+body {
+    background-image: url("peakpx.jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .background-image {
+        background-size: contain;
+        background-position: top;
+    }
+}
+
+.text{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: verdana;
+}
+
+#picture {
+    width: 750px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div {
+    color: white;
+    border-style: inset;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-family: serif;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: verdana;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    padding: 15px 30px;
+    color: #cccccc;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    border-style: inset;
+}
